@@ -4,9 +4,12 @@ WebRTC-based real-time audio streaming with Faster Whisper ASR integration for l
 
 ## Overview
 
-This repository contains the Python client part of a WebRTC-based audio streaming solution with real-time Automatic Speech Recognition (ASR) using Faster Whisper. The client receives audio streams and processes them for real-time transcription.
+This repository contains the Python client part of a WebRTC-based audio streaming solution with real-time Automatic Speech Recognition (ASR) using Faster Whisper.
+The client receives audio streams and processes them for real-time transcription.
 
-**Note:** The WebSocket signaling server used in this project is from [awrtc_signaling](https://github.com/because-why-not/awrtc_signaling) and is not included in this repository.
+**Note** 
+- The WebSocket signaling server used in this project is from [awrtc_signaling](https://github.com/because-why-not/awrtc_signaling) and is not included in this repository.
+- The ASR component is based on the [Whisper Streaming](https://github.com/ufal/whisper_streaming) project.
 
 ## Features
 
